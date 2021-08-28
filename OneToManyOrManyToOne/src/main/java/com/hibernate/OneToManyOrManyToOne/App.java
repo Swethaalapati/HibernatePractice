@@ -19,6 +19,7 @@ public class App
     	StudentOm student = new StudentOm(1, "Swetha", "CSE", laptop);
     	LaptopOm lap1 = new LaptopOm(101, "Lenovo", student);
     	
+    	laptop.add(lap1);
     	    	    	
         Configuration con = new Configuration().configure().addAnnotatedClass(StudentOm.class).addAnnotatedClass(LaptopOm.class);
         
